@@ -1,0 +1,5 @@
+*
+!.gitignore
+!overlay.cpp
+!build.py
+!pyproject.toml

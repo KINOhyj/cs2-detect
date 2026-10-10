@@ -1,0 +1,32 @@
+# Python文件
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# 虚拟环境
+.venv
+venv/
+env/
+
+# 数据集（体积大，不入库）
+# 需要数据时：图片放 test/images/、标签放 test/labels/
+test/images/
+test/labels/
+cs.jpg
+
+# 本地数据集配置（含真实路径，不入库）
+# test/data.yaml 是模板（入库），data_local.yaml 是本地真实配置（忽略）
+data_local.yaml
+
+# 模型权重（体积大，不入库）
+models/*.pt
+
+# 下载残片 / 缓存
+*.part
+*.cache
+
+# 本地工具状态
+.workbuddy-ai/
